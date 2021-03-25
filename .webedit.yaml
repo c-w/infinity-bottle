@@ -1,0 +1,18 @@
+rum.json:
+  schema:
+    properties:
+      change:
+        type: string
+        enum:
+          - add
+          - remove
+      oz:
+        type: number
+        minimum: 0
+      bottle:
+        type: string
+    required:
+      - change
+      - oz
+      - bottle
+
