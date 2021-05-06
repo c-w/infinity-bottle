@@ -1,5 +1,10 @@
 [
   {
+    "change": "remove",
+    "oz": 1.5,
+    "rating": 5
+  },
+  {
     "change": "add",
     "oz": 2,
     "bottle": "Rhum JM VSOP"
