@@ -1,25 +1,30 @@
 rum.json:
   schema:
-    properties:
-      change:
-        type: string
-        enum:
-          - add
-          - remove
-      oz:
-        type: number
-        minimum: 0
-      bottle:
-        type: string
-      rating:
-        type: number
-        enum:
-          - 1
-          - 2
-          - 3
-          - 4
-          - 5
-    required:
-      - change
-      - oz
+    oneOf:
+      - title: Addition
+        properties:
+          oz:
+            type: number
+            minimum: 0
+          bottle:
+            type: string
+        required:
+          - oz
+          - bottle
+      - title: Removal
+        properties:
+          oz:
+            type: number
+            minimum: 0
+          rating:
+            type: number
+            enum:
+              - 1
+              - 2
+              - 3
+              - 4
+              - 5
+        required:
+          - oz
+          - rating
 
