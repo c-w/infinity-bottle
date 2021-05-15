@@ -8,28 +8,23 @@
     "bottle": "Don Q Reserva"
   },
   {
-    "change": "remove",
     "oz": 1.5,
     "rating": 5
   },
   {
-    "change": "add",
     "oz": 2,
     "bottle": "Rhum JM VSOP"
   },
   {
-    "change": "add",
     "oz": 2,
     "bottle": "Foursquare Doorly's 8 Year Old"
   },
   {
-    "change": "add",
     "oz": 2,
     "bottle": "Flor de Cana 4 Year Old"
   },
   {
-    "bottle": "Appleton Reserve 8 Year Old",
     "oz": 2,
-    "change": "add"
+    "bottle": "Appleton Reserve 8 Year Old"
   }
 ]
